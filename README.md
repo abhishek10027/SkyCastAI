@@ -9,6 +9,39 @@ SkyCastAI is an **AI-powered machine learning system** designed to predict the *
 Weather is influenced by factors such as **temperature, humidity, wind speed, precipitation, cloud cover, atmospheric pressure, UV index, season, visibility, and location**. SkyCastAI analyzes these factors to predict the **Weather Type** (Sunny, Cloudy, Rainy, Stormy), enabling users to plan activities and make informed decisions.
 
 ---
+Perfect! Based on your variable descriptions and dataset shape, here’s a **clean Dataset Description section** you can directly include in your SkyCastAI README:
+
+---
+
+## **Dataset Description**
+
+The dataset contains **historical weather data** collected from various locations, including inland, coastal, and mountainous regions. It consists of **13,200 observations** with **11 features**, including the target variable, **Weather Type**. The dataset captures a wide range of atmospheric and environmental conditions, including potential outliers in temperature, humidity, wind speed, precipitation, and visibility.
+
+**Variables:**
+
+| Variable             | Type        | Description                                                                 |
+| -------------------- | ----------- | --------------------------------------------------------------------------- |
+| Temperature          | Numeric     | Temperature in degrees Celsius, ranging from extreme cold to extreme heat.  |
+| Humidity             | Numeric     | Humidity percentage, including values above 100% to introduce outliers.     |
+| Wind Speed           | Numeric     | Wind speed in kilometers per hour, including unrealistically high values.   |
+| Precipitation (%)    | Numeric     | Precipitation percentage, including outlier values.                         |
+| Cloud Cover          | Categorical | Cloud cover description (e.g., clear, partly cloudy, overcast, cloudy).     |
+| Atmospheric Pressure | Numeric     | Atmospheric pressure in hPa, covering a wide range.                         |
+| UV Index             | Numeric     | Strength of ultraviolet radiation.                                          |
+| Season               | Categorical | Season during which the data was recorded (Winter, Spring, Summer, Autumn). |
+| Visibility (km)      | Numeric     | Visibility in kilometers, including very low or very high values.           |
+| Location             | Categorical | Type of location where data was recorded (inland, coastal, mountain).       |
+| Weather Type         | Categorical | Target variable for classification: Sunny, Cloudy, Rainy, or Stormy.        |
+
+**Dataset Shape:** `(13200, 11)`
+
+**Notes:**
+
+* All categorical variables are encoded numerically for machine learning model compatibility.
+* The dataset is suitable for **classification tasks** to predict weather type.
+* Includes real-world and simulated outliers to test model robustness.
+
+---
 
 ## **Features**
 
@@ -105,7 +138,7 @@ SkyCastAI provides a **practical, interpretable, and reliable solution** for wea
 **Abhishek Kushwaha**
 
 🔗 LinkedIn: [https://www.linkedin.com/in/abhishek10027](https://www.linkedin.com/in/abhishek10027)
+
 💻 GitHub: [https://github.com/abhishek10027](https://github.com/abhishek10027)
 
 
-Do you want me to do that?
