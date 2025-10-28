@@ -93,8 +93,9 @@ The models were trained and evaluated on Accuracy, Precision, Recall, and F1-Sco
 
 The confusion matrix visually represents how well the best model (Random Forest) predicts each weather type. Correct predictions are along the diagonal, while misclassifications appear off-diagonal.
 
-<img width="729" height="608" alt="image" src="https://github.com/user-attachments/assets/da2454f1-6596-4732-836d-f3a3d7c4ec77" />
+<img width="769" height="612" alt="image" src="https://github.com/user-attachments/assets/5a7f0347-7eb7-48ca-b71d-488810c08e83" />
 
+The confusion matrix above illustrates the performance of the **Random Forest model**, which was identified as the best-performing model for SkyCastAI. The matrix compares the **actual weather types** (rows) against the **predicted weather types** (columns). Higher values along the diagonal indicate correct predictions, while off-diagonal values represent misclassifications. For example, the model correctly predicted 576 instances of Sunny (1), 592 instances of Cloudy (2), 592 instances of Rainy (3), and 664 instances of Stormy (4). This visualization confirms that the Random Forest model achieves **high accuracy across all weather categories**, with relatively few misclassifications, demonstrating its reliability in predicting weather type.
 
 ---
 
