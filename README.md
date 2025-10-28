@@ -80,10 +80,9 @@ SkyCastAI allows users to **enter weather parameters manually** and get predicti
 2. **Data Processing:** Categorical values are encoded into numeric format.
 3. **Model Execution:** The pre-trained Random Forest model evaluates the expected weather type.
 4. **Prediction Output:** Displays the predicted weather type.
+   
    <img width="430" height="60" alt="image" src="https://github.com/user-attachments/assets/0d1f9682-f026-4991-8715-c4c157b0da09" />
-
-
-
+   
 ---
 
 ## **Future Enhancements**
