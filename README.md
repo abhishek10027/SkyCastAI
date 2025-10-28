@@ -9,9 +9,6 @@ SkyCastAI is an **AI-powered machine learning system** designed to predict the *
 Weather is influenced by factors such as **temperature, humidity, wind speed, precipitation, cloud cover, atmospheric pressure, UV index, season, visibility, and location**. SkyCastAI analyzes these factors to predict the **Weather Type** (Sunny, Cloudy, Rainy, Stormy), enabling users to plan activities and make informed decisions.
 
 ---
-Perfect! Based on your variable descriptions and dataset shape, here’s a **clean Dataset Description section** you can directly include in your SkyCastAI README:
-
----
 
 ## **Dataset Description**
 
